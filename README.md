@@ -128,9 +128,20 @@ Attempting to decrypt with an incorrect key. The tool fails gracefully, displayi
 ---
 
 ## ⚠️ Disclaimer
-This tool is provided for authorized security testing, personal data protection, and educational purposes.
 
-- Only use this tool on files you own or have explicit permission to encrypt.
-- The author is not responsible for any data loss caused by lost keys or misuse of the --inplace flag.
+This tool is provided **"as-is"**, without warranty of any kind, express or implied.
 
-Use responsibly.
+The author is **not responsible** for any data loss, corruption, or damage resulting from the use of this software, including but not limited to:
+
+- Loss or misuse of encryption keys
+- Use of the `--inplace` flag
+- Software bugs, crashes, or unexpected behavior
+- User error (e.g., encrypting incorrect files or directories)
+
+This tool is intended for **authorized security testing, personal data protection, and educational purposes only**.
+
+You are **solely responsible** for ensuring you have proper authorization to process any files.
+
+If you are unsure whether you have permission to use this tool on specific data, **do not use it**.
+
+**Always maintain backups before encryption.**
