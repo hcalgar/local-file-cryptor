@@ -130,7 +130,7 @@ Attempting to decrypt with an incorrect key. The tool fails gracefully, displayi
 ## ⚠️ Disclaimer
 This tool is provided for authorized security testing, personal data protection, and educational purposes.
 
-    - Only use this tool on files you own or have explicit permission to encrypt.
-    - The author is not responsible for any data loss caused by lost keys or misuse of the --inplace flag.
+- Only use this tool on files you own or have explicit permission to encrypt.
+- The author is not responsible for any data loss caused by lost keys or misuse of the --inplace flag.
 
 Use responsibly.
