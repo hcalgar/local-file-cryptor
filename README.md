@@ -101,17 +101,23 @@ python file-cryptor.py encrypt -p secret.txt -k my_secret.key -q
 
 ---
 
+## Demos
+
 ### Key Generation
 
 Generating a new key. Running the command again automatically creates a numbered key (`my_key_1.key`) to prevent accidental overwriting.
 
 ![Key Generation](screenshots/key-generation.png)
 
+---
+
 ### Recursive Directory Encryption
 
 Encrypting an entire directory structure (`demo/`) while preserving the subfolder hierarchy (`documents/private/`).
 
 ![Recursive Encryption](screenshots/recursive-encryption.png)
+
+---
 
 ### Error Handling
 
