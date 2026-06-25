@@ -46,41 +46,25 @@ pip install cryptography
 
 ---
 
-## Examples
-
-### Generate a new encryption key
+## Usage
 
 ```bash
+# Generate a new encryption key
 python file-cryptor.py genkey -o my_secret.key
-```
 
-### Encrypt a single file
-
-```bash
+# Encrypt a single file
 python file-cryptor.py encrypt -p secret.txt -k my_secret.key
-```
 
-### Decrypt a file
-
-```bash
+# Decrypt a file
 python file-cryptor.py decrypt -p secret.txt.enc -k my_secret.key
-```
 
-### Encrypt a directory recursively
-
-```bash
+# Encrypt a directory recursively
 python file-cryptor.py encrypt -p ./documents/ -k my_secret.key -r
-```
 
-### Encrypt inplace (overwrites original)
-
-```bash
+# Encrypt inplace (overwrites original)
 python file-cryptor.py encrypt -p secret.txt -k my_secret.key -i
-```
 
-### Quiet mode
-
-```bash
+# Quiet mode
 python file-cryptor.py encrypt -p secret.txt -k my_secret.key -q
 ```
 
