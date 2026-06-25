@@ -39,7 +39,7 @@ Lightweight CLI tool for local file encryption and decryption using Fernet symme
 ## Installation
 
 ```bash
-git clone <your-repo-url>
+git clone <repo-url>
 cd local-file-cryptor
 pip install cryptography
 ```
